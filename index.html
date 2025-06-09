@@ -235,52 +235,58 @@
   <!-- 3-Column Content Section -->
   <section class="my-5">
     <div class="container">
-      <div class="row row-cols-1 row-cols-md-3 g-4 align-items-stretch">
+      <div class="row justify-content-center g-4">
         <!-- Column 1 -->
-        <div class="col d-flex">
-          <div class="h-100 p-4 border rounded bg-white shadow-sm text-center flex-fill d-flex flex-column" style="width: 100%;">
-            <h2 class="mb-3" style="font-family: 'intel-one', 'intel-clear', Helvetica, Arial, sans-serif;">
-              <i class="bi bi-bar-chart-fill text-primary me-2"></i>
-              RISE Strategy
-            </h2>
-            <p style="font-family: 'intel-clear', 'tahoma', Helvetica, 'helvetica', Arial, sans-serif;">
-              Under its RISE (Responsible, Inclusive, Sustainable, Enabling) strategy, 
-              Intel sets ambitious 2030 goals, including driving industry-wide 
-              progress on climate action, water stewardship, and waste reduction.
-            </p>
-            <a href="#" class="btn btn-primary mt-auto px-4">Learn More</a>
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4 d-flex justify-content-center order-1">
+          <div class="card text-center flex-fill d-flex flex-column bg-white shadow-sm border rounded" style="max-width: 340px; width: 100%;">
+            <div class="card-body d-flex flex-column p-4">
+              <h2 class="mb-3" style="font-family: 'intel-one', 'intel-clear', Helvetica, Arial, sans-serif;">
+                <i class="bi bi-bar-chart-fill text-info me-2"></i>
+                RISE Strategy
+              </h2>
+              <p style="font-family: 'intel-clear', 'tahoma', Helvetica, 'helvetica', Arial, sans-serif;">
+                Under its RISE (Responsible, Inclusive, Sustainable, Enabling) strategy, 
+                Intel sets ambitious 2030 goals, including driving industry-wide 
+                progress on climate action, water stewardship, and waste reduction.
+              </p>
+              <a href="#" class="btn btn-primary btn-lg mt-auto px-4 py-2 fw-bold shadow cta-btn">Learn More</a>
+            </div>
           </div>
         </div>
         <!-- Column 2 -->
-        <div class="col d-flex">
-          <div class="h-100 p-4 border rounded bg-white shadow-sm text-center flex-fill d-flex flex-column" style="width: 100%;">
-            <h2 class="mb-3" style="font-family: 'intel-one', 'intel-clear', Helvetica, Arial, sans-serif;">
-              <i class="bi bi-shield-check text-success me-2"></i>
-              Commitment
-            </h2>
-            <p style="font-family: 'intel-clear', 'tahoma', Helvetica, 'helvetica', Arial, sans-serif;">
-              In 2022, Intel pledged to achieve net-zero greenhouse gas emissions 
-              (Scope 1 and 2) by 2040. This commitment builds on decades of 
-              environmental initiatives and partnerships across the semiconductor 
-              industry.
-            </p>
-            <a href="#" class="btn btn-primary mt-auto px-4">Learn More</a>
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4 d-flex justify-content-center order-2">
+          <div class="card text-center flex-fill d-flex flex-column bg-white shadow-sm border rounded" style="max-width: 340px; width: 100%;">
+            <div class="card-body d-flex flex-column p-4">
+              <h2 class="mb-3" style="font-family: 'intel-one', 'intel-clear', Helvetica, Arial, sans-serif;">
+                <i class="bi bi-shield-check text-success me-2"></i>
+                Commitment
+              </h2>
+              <p style="font-family: 'intel-clear', 'tahoma', Helvetica, 'helvetica', Arial, sans-serif;">
+                In 2022, Intel pledged to achieve net-zero greenhouse gas emissions 
+                (Scope 1 and 2) by 2040. This commitment builds on decades of 
+                environmental initiatives and partnerships across the semiconductor 
+                industry.
+              </p>
+              <a href="#" class="btn btn-primary btn-lg mt-auto px-4 py-2 fw-bold shadow cta-btn">Learn More</a>
+            </div>
           </div>
         </div>
         <!-- Column 3 -->
-        <div class="col d-flex">
-          <div class="h-100 p-4 border rounded bg-white shadow-sm text-center flex-fill d-flex flex-column" style="width: 100%;">
-            <h2 class="mb-3" style="font-family: 'intel-one', 'intel-clear', Helvetica, Arial, sans-serif;">
-              <i class="bi bi-droplet-half text-info me-2"></i>
-              Water &amp; Waste
-            </h2>
-            <p style="font-family: 'intel-clear', 'tahoma', Helvetica, 'helvetica', Arial, sans-serif;">
-              Intel conserves billions of gallons of water annually and 
-              collaborates with local communities to restore watersheds.
-              Intel also upcycles and recycles materials to reduce waste and 
-              advance a circular economy.
-            </p>
-            <a href="#" class="btn btn-primary mt-auto px-4">Learn More</a>
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4 d-flex justify-content-center order-3">
+          <div class="card text-center flex-fill d-flex flex-column bg-white shadow-sm border rounded" style="max-width: 340px; width: 100%;">
+            <div class="card-body d-flex flex-column p-4">
+              <h2 class="mb-3" style="font-family: 'intel-one', 'intel-clear', Helvetica, Arial, sans-serif;">
+                <i class="bi bi-droplet-half text-info me-2"></i>
+                Water &amp; Waste
+              </h2>
+              <p style="font-family: 'intel-clear', 'tahoma', Helvetica, 'helvetica', Arial, sans-serif;">
+                Intel conserves billions of gallons of water annually and 
+                collaborates with local communities to restore watersheds.
+                Intel also upcycles and recycles materials to reduce waste and 
+                advance a circular economy.
+              </p>
+              <a href="#" class="btn btn-primary btn-lg mt-auto px-4 py-2 fw-bold shadow cta-btn">Learn More</a>
+            </div>
           </div>
         </div>
       </div>
@@ -358,6 +364,19 @@
     .hide-scrollbar {
       -ms-overflow-style: none;  /* IE and Edge */
       scrollbar-width: none;  /* Firefox */
+    }
+    .cta-btn {
+      letter-spacing: 0.5px;
+      border-radius: 32px;
+      transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+      box-shadow: 0 4px 16px rgba(0,104,181,0.12);
+    }
+    .cta-btn:hover, .cta-btn:focus {
+      background: #005999;
+      color: #fff;
+      box-shadow: 0 6px 24px rgba(0,104,181,0.18);
+      transform: translateY(-2px) scale(1.04);
+      text-decoration: none;
     }
   </style>
 </body>
