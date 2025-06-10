@@ -267,110 +267,76 @@
     </div>
   </section>
    <!-- 3-Column Content Section -->
-  <section class="my-5">
-    <div class="container">
-      <div class="row row-cols-1 row-cols-lg-3 g-4 justify-content-center align-items-stretch">
+  
+    <div class="container text-center">
+      <div class="row">
         <!-- Column 1 -->
-        <div class="col d-flex">
-          <div class="card text-center flex-fill d-flex flex-column bg-white shadow-sm border rounded" style="max-width: 340px; width: 100%; margin: 0 auto;">
-            <div class="card-body d-flex flex-column p-4">
-              <h2 class="mb-3" style="font-family: 'intel-one', 'intel-clear', Helvetica, Arial, sans-serif;">
-                <i class="bi bi-bar-chart-fill text-info me-2"></i>
-                RISE Strategy
-              </h2>
-              <p style="font-family: 'intel-clear', 'tahoma', Helvetica, 'helvetica', Arial, sans-serif;">
-                Under its RISE (Responsible, Inclusive, Sustainable, Enabling) strategy, 
-                Intel sets ambitious 2030 goals, including driving industry-wide 
-                progress on climate action, water stewardship, and waste reduction.
-              </p>
-              <a href="#" class="btn btn-primary btn-lg mt-auto px-4 py-2 fw-bold shadow cta-btn">Learn More</a>
-            </div>
+        <div class="col-12 col-md-4">
+          <h2 class="mb-3">
+          <i class="bi bi-bar-chart-fill text-info me-2"></i>
+          RISE Strategy
+          </h2>
+          <div>
+            <p>
+              Under its RISE (Responsible, Inclusive, Sustainable, Enabling) strategy, 
+              Intel sets ambitious 2030 goals, including driving industry-wide 
+              progress on climate action, water stewardship, and waste reduction.
+            </p>
           </div>
+          <a href="#" class="btn btn-primary btn-lg mt-auto px-4 py-2 fw-bold shadow cta-btn">Learn More</a>
         </div>
         <!-- Column 2 -->
-        <div class="col d-flex">
-          <div class="card text-center flex-fill d-flex flex-column bg-white shadow-sm border rounded" style="max-width: 340px; width: 100%; margin: 0 auto;">
-            <div class="card-body d-flex flex-column p-4">
-              <h2 class="mb-3" style="font-family: 'intel-one', 'intel-clear', Helvetica, Arial, sans-serif;">
+        <div class="col-12 col-md-4 d-flex">
+              <h2 class="mb-3">
                 <i class="bi bi-shield-check text-success me-2"></i>
                 Commitment
               </h2>
-              <p style="font-family: 'intel-clear', 'tahoma', Helvetica, 'helvetica', Arial, sans-serif;">
-                In 2022, Intel pledged to achieve net-zero greenhouse gas emissions 
-                (Scope 1 and 2) by 2040. This commitment builds on decades of 
-                environmental initiatives and partnerships across the semiconductor 
-                industry.
-              </p>
+              <div>
+                <p>
+                  In 2022, Intel pledged to achieve net-zero greenhouse gas emissions 
+                  (Scope 1 and 2) by 2040. This commitment builds on decades of 
+                  environmental initiatives and partnerships across the semiconductor 
+                  industry.
+                </p>
+              </div>
               <a href="#" class="btn btn-primary btn-lg mt-auto px-4 py-2 fw-bold shadow cta-btn">Learn More</a>
             </div>
           </div>
         </div>
         <!-- Column 3 -->
-        <div class="col d-flex">
-          <div class="card text-center flex-fill d-flex flex-column bg-white shadow-sm border rounded" style="max-width: 340px; width: 100%; margin: 0 auto;">
-            <div class="card-body d-flex flex-column p-4">
-              <h2 class="mb-3" style="font-family: 'intel-one', 'intel-clear', Helvetica, Arial, sans-serif;">
+        <div class="col-12 col-md-4 d-flex">
+              <h2 class="mb-3">
                 <i class="bi bi-droplet-half text-info me-2"></i>
                 Water &amp; Waste
               </h2>
-              <p style="font-family: 'intel-clear', 'tahoma', Helvetica, 'helvetica', Arial, sans-serif;">
-                Intel conserves billions of gallons of water annually and 
-                collaborates with local communities to restore watersheds.
-                Intel also upcycles and recycles materials to reduce waste and 
-                advance a circular economy.
-              </p>
+              <div>
+                <p>
+                  Intel conserves billions of gallons of water annually and 
+                  collaborates with local communities to restore watersheds.
+                  Intel also upcycles and recycles materials to reduce waste and 
+                  advance a circular economy.
+                </p>
+              </div>
               <a href="#" class="btn btn-primary btn-lg mt-auto px-4 py-2 fw-bold shadow cta-btn">Learn More</a>
-            </div>
           </div>
-        </div>
       </div>
     </div>
+<!-- Subscription Form -->
+  <section>
+    <h2>Subscribe to our Newsletter</h2>
+    <form action="#" method="post">
+      <div>
+        <div>
+          <!-- Hidden label for accessibility -->
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div>
+          <button type="submit">Subscribe</button>
+        </div>
+      </div>
+    </form>
   </section>
-
-  <!-- Subscription Form -->
-  <form>
-            <div class="mb-3">
-              <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name" name="name" placeholder="Name">
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" name="email" placeholder="Email">
-            </div>
-            <div class="mb-3">
-              <label for="zip" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="zip" name="zip" placeholder="Zip">
-            </div>
-            <div class="mb-3">
-              <label for="party-size" class="form-label">Party Size</label>
-              <input type="number" class="form-control" id="party-size" name="party-size" placeholder="Party Size">
-            </div>
-            <div class="mb-3">
-              <label for="spice-level" class="form-label">Preferred Spice Level</label>
-              <select class="form-select" id="spice-level" name="spice-level">
-                <option selected>Choose...</option>
-                <option value="mild">Mild</option>
-                <option value="med">Medium</option>
-                <option value="spicy">Spicy</option>
-              </select>
-            </div>
-            <div class="form-check mb-3">
-              <input class="form-check-input" type="checkbox" id="birthday-cake" name="birthday-cake">
-              <label class="form-check-label" for="birthday-cake">
-                Would you like to pretend it's your birthday for free cake?
-              </label>
-            </div>
-            <div class="form-check mb-3">
-              <input class="form-check-input" type="checkbox" id="accept-unknown" name="accept-unknown">
-              <label class="form-check-label" for="accept-unknown">
-                I accept that I have no idea where I'll dine, and that's OK.
-              </label>
-            </div>
-            <button type="submit" class="btn btn-lg btn-primary" aria-label="Book My Mystery Meal">Book My Mystery Meal!</button>
-          </form>
-        </div>
-      </div>
-    </div>
   <!-- Footer -->
   <footer>
     <div class="container">
