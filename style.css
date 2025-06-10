@@ -315,41 +315,8 @@
         border-radius: 6px;
       }
     }
-    /* Reservation Card */
-.reservation-card {
-  background-color: #ffffff;
-  padding: 30px;
-  border-radius: 5px; /* Approximately 0.3125rem */
-  border: 1px dashed #babbbd;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-  max-width: 500px;
-  margin: 0 auto;
-  text-align: left;
-}
-
-.reservation-card h2 {
-  font-size: 24px;
-  margin-bottom: 16px;
-  margin-top: 0;
-}
-
-.reservation-card p {
-  font-size: 16px;
-  margin-bottom: 24px;
-}
-
 .form-placeholder {
   border-radius: 5px;
-}
-
-.btn-primary {
-  background-color: #da3743;
-  border-color: #da3743;
-}
-
-.btn-primary:hover {
-  background-color: #b12b36;
-  border-color: #b12b36;
 }
 /* Footer */
 footer {
